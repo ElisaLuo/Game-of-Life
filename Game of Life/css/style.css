@@ -1,0 +1,70 @@
+body {
+  background-image: radial-gradient(#fc00ff, #00dbde);
+}
+
+#container {
+  background: #000;
+  width: 788px;
+  height: 568px;
+  margin: 0px auto;
+  border: 9px solid #333;
+}
+
+.cell {
+  font-size: 9px;
+  width: 11px;
+  height: 11px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #222;
+  margin: 0px;
+  float: left;
+  border-radius: none;
+}
+
+.cell:nth-child(70n + 1) {
+  clear: both;
+}
+
+.alive {
+  background: #ccffee;
+}
+
+.old {
+  background: #33ffbb;
+}
+
+.dead {
+  background: black;
+}
+
+.topMenu {
+  width: 580px;
+  height: 40px;
+  margin: 65px auto 0;
+  padding-top: 5px;
+}
+
+button {
+  background: #222;
+  color: #ddd;
+}
+
+.topButton {
+  width: 100px;
+  height: 30px;
+  margin: 4px 8px 0 8px;
+  float: left;
+  font-size: 20px;
+}
+
+.counter {
+  margin: 7px 0 0 365px;
+  font-family: courier;
+  font-size: 20px;
+  color: #ddd;
+}
+
+.activeButton {
+  background: #ccffee;
+  color: #222;
+}
